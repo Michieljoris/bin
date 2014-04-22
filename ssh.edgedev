@@ -1,1 +1,1 @@
-ssh -i ~/.ssh/editshare.pem ubuntu@122.248.250.157
+ssh -i ~/.ssh/editshare.pem ubuntu@edgedev
