@@ -1,0 +1,1036 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/michieljoris/bin/node',
+1 verbose cli   '/home/michieljoris/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'refresh' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose node symlink /home/michieljoris/bin/node
+5 verbose cache add [ 'refresh', null ]
+6 verbose cache add name=undefined spec="refresh" args=["refresh",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'refresh',
+7 verbose parsed url   path: 'refresh',
+7 verbose parsed url   href: 'refresh' }
+8 silly lockFile 26b56c1b-refresh refresh
+9 verbose lock refresh /home/michieljoris/.npm/26b56c1b-refresh.lock
+10 verbose chmod /home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/tmp.tgz 644
+11 verbose tar unpack /home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/tmp.tgz
+12 silly lockFile 6502169c-6574-0-18585221865214407-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/package
+13 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/package /home/michieljoris/.npm/6502169c-6574-0-18585221865214407-package.lock
+14 silly lockFile 4e431f45-6574-0-18585221865214407-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/tmp.tgz
+15 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/tmp.tgz /home/michieljoris/.npm/4e431f45-6574-0-18585221865214407-tmp-tgz.lock
+16 silly gunzTarPerm modes [ '755', '644' ]
+17 error not a package /home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/tmp.tgz
+18 silly lockFile 6502169c-6574-0-18585221865214407-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/package
+19 silly lockFile 6502169c-6574-0-18585221865214407-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/package
+20 silly lockFile 4e431f45-6574-0-18585221865214407-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/tmp.tgz
+21 silly lockFile 4e431f45-6574-0-18585221865214407-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857836574-0.18585221865214407/tmp.tgz
+22 silly lockFile 26b56c1b-refresh refresh
+23 silly lockFile 26b56c1b-refresh refresh
+24 verbose addNamed [ 'refresh', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 547f32b8-refresh refresh@
+27 verbose lock refresh@ /home/michieljoris/.npm/547f32b8-refresh.lock
+28 silly addNameRange { name: 'refresh', range: '*', hasData: false }
+29 verbose url raw refresh
+30 verbose url resolving [ 'https://registry.npmjs.org/', './refresh' ]
+31 verbose url resolved https://registry.npmjs.org/refresh
+32 info trying registry request attempt 1 at 14:30:36
+33 http GET https://registry.npmjs.org/refresh
+34 http 200 https://registry.npmjs.org/refresh
+35 silly registry.get cb [ 200,
+35 silly registry.get   { date: 'Sat, 15 Mar 2014 04:30:37 GMT',
+35 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+35 silly registry.get     etag: '"A7FQXZB30SZD2V1WVML2YS9A1"',
+35 silly registry.get     'content-type': 'application/json',
+35 silly registry.get     via: '1.1 varnish',
+35 silly registry.get     'cache-control': 'max-age=1',
+35 silly registry.get     'content-length': '12809',
+35 silly registry.get     'accept-ranges': 'bytes',
+35 silly registry.get     age: '0',
+35 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-syd1622-SYD',
+35 silly registry.get     'x-cache': 'MISS, MISS',
+35 silly registry.get     'x-cache-hits': '0, 0',
+35 silly registry.get     'x-timer': 'S1394857837.158818960,VS0,VS-219,VE-117,VE330',
+35 silly registry.get     vary: 'Accept',
+35 silly registry.get     'keep-alive': 'timeout=10, max=50',
+35 silly registry.get     connection: 'Keep-Alive' } ]
+36 silly addNameRange number 2 { name: 'refresh', range: '*', hasData: true }
+37 silly addNameRange versions [ 'refresh', [ '0.0.4', '0.0.5' ] ]
+38 verbose addNamed [ 'refresh', '0.0.5' ]
+39 verbose addNamed [ '0.0.5', '0.0.5' ]
+40 silly lockFile 9481aae6-refresh-0-0-5 refresh@0.0.5
+41 verbose lock refresh@0.0.5 /home/michieljoris/.npm/9481aae6-refresh-0-0-5.lock
+42 silly lockFile a3fa0e6f-js-org-refresh-refresh-0-0-5-tgz https://registry.npmjs.org/refresh/-/refresh-0.0.5.tgz
+43 verbose lock https://registry.npmjs.org/refresh/-/refresh-0.0.5.tgz /home/michieljoris/.npm/a3fa0e6f-js-org-refresh-refresh-0-0-5-tgz.lock
+44 verbose addRemoteTarball [ 'https://registry.npmjs.org/refresh/-/refresh-0.0.5.tgz',
+44 verbose addRemoteTarball   'fe9498edac5e7f1de53102569403e2f3f050f3df' ]
+45 info retry fetch attempt 1 at 14:30:37
+46 verbose fetch to= /home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/tmp.tgz
+47 http GET https://registry.npmjs.org/refresh/-/refresh-0.0.5.tgz
+48 http 200 https://registry.npmjs.org/refresh/-/refresh-0.0.5.tgz
+49 verbose tar unpack /home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/tmp.tgz
+50 silly lockFile 24bb7a1b-37554-0-6803855546750128-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package
+51 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package /home/michieljoris/.npm/24bb7a1b-37554-0-6803855546750128-package.lock
+52 silly lockFile 31f48840-37554-0-6803855546750128-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/tmp.tgz
+53 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/tmp.tgz /home/michieljoris/.npm/31f48840-37554-0-6803855546750128-tmp-tgz.lock
+54 silly gunzTarPerm modes [ '755', '644' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm extractEntry .npmignore
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry refresh.js
+59 silly gunzTarPerm extractEntry bin/refresh
+60 silly gunzTarPerm extractEntry lib/live.js
+61 silly gunzTarPerm extractEntry lib/monitor.js
+62 silly gunzTarPerm extractEntry lib/server.js
+63 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy.js
+64 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy/http-proxy.js
+65 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy/proxy-table.js
+66 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy/routing-proxy.js
+67 silly lockFile 24bb7a1b-37554-0-6803855546750128-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package
+68 silly lockFile 24bb7a1b-37554-0-6803855546750128-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package
+69 silly lockFile 31f48840-37554-0-6803855546750128-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/tmp.tgz
+70 silly lockFile 31f48840-37554-0-6803855546750128-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/tmp.tgz
+71 verbose tar pack [ '/home/michieljoris/.npm/refresh/0.0.5/package.tgz',
+71 verbose tar pack   '/home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package' ]
+72 verbose tarball /home/michieljoris/.npm/refresh/0.0.5/package.tgz
+73 verbose folder /home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package
+74 silly lockFile 24bb7a1b-37554-0-6803855546750128-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package
+75 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package /home/michieljoris/.npm/24bb7a1b-37554-0-6803855546750128-package.lock
+76 silly lockFile f0ca8c88-is-npm-refresh-0-0-5-package-tgz tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz
+77 verbose lock tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz /home/michieljoris/.npm/f0ca8c88-is-npm-refresh-0-0-5-package-tgz.lock
+78 silly lockFile 24bb7a1b-37554-0-6803855546750128-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package
+79 silly lockFile 24bb7a1b-37554-0-6803855546750128-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857837554-0.6803855546750128/package
+80 silly lockFile f0ca8c88-is-npm-refresh-0-0-5-package-tgz tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz
+81 silly lockFile f0ca8c88-is-npm-refresh-0-0-5-package-tgz tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz
+82 silly lockFile 0c1d8d66-ljoris-npm-refresh-0-0-5-package /home/michieljoris/.npm/refresh/0.0.5/package
+83 verbose lock /home/michieljoris/.npm/refresh/0.0.5/package /home/michieljoris/.npm/0c1d8d66-ljoris-npm-refresh-0-0-5-package.lock
+84 silly lockFile 0c1d8d66-ljoris-npm-refresh-0-0-5-package /home/michieljoris/.npm/refresh/0.0.5/package
+85 silly lockFile 0c1d8d66-ljoris-npm-refresh-0-0-5-package /home/michieljoris/.npm/refresh/0.0.5/package
+86 verbose tar unpack /home/michieljoris/.npm/refresh/0.0.5/package.tgz
+87 silly lockFile afac3b6e-ljoris-npm-refresh-0-0-5-package tar:///home/michieljoris/.npm/refresh/0.0.5/package
+88 verbose lock tar:///home/michieljoris/.npm/refresh/0.0.5/package /home/michieljoris/.npm/afac3b6e-ljoris-npm-refresh-0-0-5-package.lock
+89 silly lockFile f0ca8c88-is-npm-refresh-0-0-5-package-tgz tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz
+90 verbose lock tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz /home/michieljoris/.npm/f0ca8c88-is-npm-refresh-0-0-5-package-tgz.lock
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 silly gunzTarPerm extractEntry package.json
+93 silly gunzTarPerm extractEntry .npmignore
+94 silly gunzTarPerm extractEntry README.md
+95 silly gunzTarPerm extractEntry refresh.js
+96 silly gunzTarPerm extractEntry bin/refresh
+97 silly gunzTarPerm extractEntry lib/live.js
+98 silly gunzTarPerm extractEntry lib/monitor.js
+99 silly gunzTarPerm extractEntry lib/server.js
+100 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy.js
+101 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy/http-proxy.js
+102 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy/proxy-table.js
+103 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy/routing-proxy.js
+104 silly lockFile afac3b6e-ljoris-npm-refresh-0-0-5-package tar:///home/michieljoris/.npm/refresh/0.0.5/package
+105 silly lockFile afac3b6e-ljoris-npm-refresh-0-0-5-package tar:///home/michieljoris/.npm/refresh/0.0.5/package
+106 silly lockFile f0ca8c88-is-npm-refresh-0-0-5-package-tgz tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz
+107 silly lockFile f0ca8c88-is-npm-refresh-0-0-5-package-tgz tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz
+108 verbose chmod /home/michieljoris/.npm/refresh/0.0.5/package.tgz 644
+109 verbose chown /home/michieljoris/.npm/refresh/0.0.5/package.tgz [ 1000, 100 ]
+110 silly lockFile a3fa0e6f-js-org-refresh-refresh-0-0-5-tgz https://registry.npmjs.org/refresh/-/refresh-0.0.5.tgz
+111 silly lockFile a3fa0e6f-js-org-refresh-refresh-0-0-5-tgz https://registry.npmjs.org/refresh/-/refresh-0.0.5.tgz
+112 silly lockFile 9481aae6-refresh-0-0-5 refresh@0.0.5
+113 silly lockFile 9481aae6-refresh-0-0-5 refresh@0.0.5
+114 silly lockFile 547f32b8-refresh refresh@
+115 silly lockFile 547f32b8-refresh refresh@
+116 silly resolved [ { name: 'refresh',
+116 silly resolved     version: '0.0.5',
+116 silly resolved     description: 'A webdevelopment tool that refreshes the browser based on the filesystem changes',
+116 silly resolved     main: 'refresh.js',
+116 silly resolved     bin: { refresh: './refresh.js' },
+116 silly resolved     engines: { node: '>=0.8.0' },
+116 silly resolved     keywords: [ 'refresh', 'webdevelopment', 'browser' ],
+116 silly resolved     repository: { type: 'git', url: 'git://github.com/kinncj/refresh.git' },
+116 silly resolved     author: { name: 'Kinn Coelho Julião - kinncj@gmail.com' },
+116 silly resolved     license: 'MIT',
+116 silly resolved     dependencies:
+116 silly resolved      { 'socket.io': '~0.9.10',
+116 silly resolved        pkginfo: '~0.2.3',
+116 silly resolved        commander: '~1.0.5',
+116 silly resolved        inotify: '~1.0.0' },
+116 silly resolved     readme: 'refresh\n=======\nYour webdevelopment tool\n\n[![Youtube video](http://img.youtube.com/vi/6A1HdK7iHVM/0.jpg)](http://www.youtube.com/watch?v=6A1HdK7iHVM)\n\nAbout\n======\nA tool(proxy) that refreshes your browser based on filesystem notifications.\n\nWith refresh, you can have live updates from your web server based on your filesystem updates.\n\nMotivation and decision\n======\n\n* Motivation\n\t* I really love some Mac editors that give me live preview when I\'m coding some PHP stuff.\n\n\t* But I\'m not always on Mac, so I decide to create this to help my work at Linux too... this way I can get the "live preview" resource with any editor/IDE.\n\n\t* Learn new things.\n\n* Decision\n\t* At first time I knew that I would need some "socket" interaction to tell my browser: "Refresh please...".\n\t* So, when I think about socket, "daemons", "remote interactions" and "web browsers" I think node.\n\t* This way I started a new saga to learn and finish this "app" in the past 1 day.\n\n\nUsage\n======\n\n\tnpm install -g refresh (it may require root privileges)\n\n\trefresh -s 127.0.0.1 -p 1337 -r http://localhost -t 80 -d /var/www\n\trefresh -h\n\trefresh --server 127.0.0.1 --localport 1337 --remoteserver http://localhost --remoteport 80 --directory /var/www\n\nRoadmap\n======\n- Automated tests\n\n- Command executer for every filesystem notification\n\n\texample:\n\n\trefresh -s 127.0.0.1 -p 1337 -r http://localhost -t 80 -d /var/www -c "phpunit tests/unit/"\n\n\tthis way developers can trigger commands for every filesystem update\n\nThanks\n======\nModules:\n\n\thttp-proxy (that I updated and used for this project, inside lib folder).\n\tcommander\n\tinotify\n\tpkginfo\n\tsocket.io\n\nSpecial thanks for:\n\tHelder Santana ( [@heldr](http://github.com/heldr) ) for supporting me at this project.\n\n\nContributing\n======\nFeel free to help us creating issues and PRs ;)\n\nLicense - MIT\n======\nCopyright 2012 Kinn Coelho Julião and other contributors\nhttp://kinncj.com.br/\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  ',
+116 silly resolved     readmeFilename: 'README.md',
+116 silly resolved     bugs: { url: 'https://github.com/kinncj/refresh/issues' },
+116 silly resolved     homepage: 'https://github.com/kinncj/refresh',
+116 silly resolved     _id: 'refresh@0.0.5',
+116 silly resolved     dist: { shasum: '3ddbf5a8b0a4d8de19027c5de374234d1c82beac' },
+116 silly resolved     _from: 'refresh@',
+116 silly resolved     _resolved: 'https://registry.npmjs.org/refresh/-/refresh-0.0.5.tgz' } ]
+117 info install refresh@0.0.5 into /home/michieljoris/lib
+118 info installOne refresh@0.0.5
+119 info /home/michieljoris/lib/node_modules/refresh unbuild
+120 verbose tar unpack /home/michieljoris/.npm/refresh/0.0.5/package.tgz
+121 silly lockFile 0651a85e-eljoris-lib-node-modules-refresh tar:///home/michieljoris/lib/node_modules/refresh
+122 verbose lock tar:///home/michieljoris/lib/node_modules/refresh /home/michieljoris/.npm/0651a85e-eljoris-lib-node-modules-refresh.lock
+123 silly lockFile f0ca8c88-is-npm-refresh-0-0-5-package-tgz tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz
+124 verbose lock tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz /home/michieljoris/.npm/f0ca8c88-is-npm-refresh-0-0-5-package-tgz.lock
+125 silly gunzTarPerm modes [ '755', '644' ]
+126 silly gunzTarPerm extractEntry package.json
+127 silly gunzTarPerm extractEntry .npmignore
+128 silly gunzTarPerm extractEntry README.md
+129 silly gunzTarPerm extractEntry refresh.js
+130 silly gunzTarPerm extractEntry bin/refresh
+131 silly gunzTarPerm extractEntry lib/live.js
+132 silly gunzTarPerm extractEntry lib/monitor.js
+133 silly gunzTarPerm extractEntry lib/server.js
+134 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy.js
+135 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy/http-proxy.js
+136 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy/proxy-table.js
+137 silly gunzTarPerm extractEntry lib/http-proxy/node-http-proxy/routing-proxy.js
+138 silly lockFile 0651a85e-eljoris-lib-node-modules-refresh tar:///home/michieljoris/lib/node_modules/refresh
+139 silly lockFile 0651a85e-eljoris-lib-node-modules-refresh tar:///home/michieljoris/lib/node_modules/refresh
+140 silly lockFile f0ca8c88-is-npm-refresh-0-0-5-package-tgz tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz
+141 silly lockFile f0ca8c88-is-npm-refresh-0-0-5-package-tgz tar:///home/michieljoris/.npm/refresh/0.0.5/package.tgz
+142 info preinstall refresh@0.0.5
+143 verbose readDependencies using package.json deps
+144 verbose readDependencies using package.json deps
+145 verbose cache add [ 'socket.io@~0.9.10', null ]
+146 verbose cache add name=undefined spec="socket.io@~0.9.10" args=["socket.io@~0.9.10",null]
+147 verbose parsed url { protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: 'socket.io@~0.9.10',
+147 verbose parsed url   path: 'socket.io@~0.9.10',
+147 verbose parsed url   href: 'socket.io@~0.9.10' }
+148 verbose cache add name="socket.io" spec="~0.9.10" args=["socket.io","~0.9.10"]
+149 verbose parsed url { protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '~0.9.10',
+149 verbose parsed url   path: '~0.9.10',
+149 verbose parsed url   href: '~0.9.10' }
+150 verbose addNamed [ 'socket.io', '~0.9.10' ]
+151 verbose addNamed [ null, '>=0.9.10-0 <0.10.0-0' ]
+152 silly lockFile 51851f13-socket-io-0-9-10 socket.io@~0.9.10
+153 verbose lock socket.io@~0.9.10 /home/michieljoris/.npm/51851f13-socket-io-0-9-10.lock
+154 verbose cache add [ 'pkginfo@~0.2.3', null ]
+155 verbose cache add name=undefined spec="pkginfo@~0.2.3" args=["pkginfo@~0.2.3",null]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: 'pkginfo@~0.2.3',
+156 verbose parsed url   path: 'pkginfo@~0.2.3',
+156 verbose parsed url   href: 'pkginfo@~0.2.3' }
+157 verbose cache add name="pkginfo" spec="~0.2.3" args=["pkginfo","~0.2.3"]
+158 verbose parsed url { protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: '~0.2.3',
+158 verbose parsed url   path: '~0.2.3',
+158 verbose parsed url   href: '~0.2.3' }
+159 verbose addNamed [ 'pkginfo', '~0.2.3' ]
+160 verbose addNamed [ null, '>=0.2.3-0 <0.3.0-0' ]
+161 silly lockFile c7067688-pkginfo-0-2-3 pkginfo@~0.2.3
+162 verbose lock pkginfo@~0.2.3 /home/michieljoris/.npm/c7067688-pkginfo-0-2-3.lock
+163 verbose cache add [ 'inotify@~1.0.0', null ]
+164 verbose cache add name=undefined spec="inotify@~1.0.0" args=["inotify@~1.0.0",null]
+165 verbose parsed url { protocol: null,
+165 verbose parsed url   slashes: null,
+165 verbose parsed url   auth: null,
+165 verbose parsed url   host: null,
+165 verbose parsed url   port: null,
+165 verbose parsed url   hostname: null,
+165 verbose parsed url   hash: null,
+165 verbose parsed url   search: null,
+165 verbose parsed url   query: null,
+165 verbose parsed url   pathname: 'inotify@~1.0.0',
+165 verbose parsed url   path: 'inotify@~1.0.0',
+165 verbose parsed url   href: 'inotify@~1.0.0' }
+166 verbose cache add name="inotify" spec="~1.0.0" args=["inotify","~1.0.0"]
+167 verbose parsed url { protocol: null,
+167 verbose parsed url   slashes: null,
+167 verbose parsed url   auth: null,
+167 verbose parsed url   host: null,
+167 verbose parsed url   port: null,
+167 verbose parsed url   hostname: null,
+167 verbose parsed url   hash: null,
+167 verbose parsed url   search: null,
+167 verbose parsed url   query: null,
+167 verbose parsed url   pathname: '~1.0.0',
+167 verbose parsed url   path: '~1.0.0',
+167 verbose parsed url   href: '~1.0.0' }
+168 verbose addNamed [ 'inotify', '~1.0.0' ]
+169 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+170 silly lockFile d2fee677-inotify-1-0-0 inotify@~1.0.0
+171 verbose lock inotify@~1.0.0 /home/michieljoris/.npm/d2fee677-inotify-1-0-0.lock
+172 verbose cache add [ 'commander@~1.0.5', null ]
+173 verbose cache add name=undefined spec="commander@~1.0.5" args=["commander@~1.0.5",null]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: 'commander@~1.0.5',
+174 verbose parsed url   path: 'commander@~1.0.5',
+174 verbose parsed url   href: 'commander@~1.0.5' }
+175 verbose cache add name="commander" spec="~1.0.5" args=["commander","~1.0.5"]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: '~1.0.5',
+176 verbose parsed url   path: '~1.0.5',
+176 verbose parsed url   href: '~1.0.5' }
+177 verbose addNamed [ 'commander', '~1.0.5' ]
+178 verbose addNamed [ null, '>=1.0.5-0 <1.1.0-0' ]
+179 silly lockFile c5f7a27c-commander-1-0-5 commander@~1.0.5
+180 verbose lock commander@~1.0.5 /home/michieljoris/.npm/c5f7a27c-commander-1-0-5.lock
+181 silly addNameRange { name: 'socket.io',
+181 silly addNameRange   range: '>=0.9.10-0 <0.10.0-0',
+181 silly addNameRange   hasData: false }
+182 silly addNameRange { name: 'pkginfo', range: '>=0.2.3-0 <0.3.0-0', hasData: false }
+183 silly addNameRange { name: 'commander',
+183 silly addNameRange   range: '>=1.0.5-0 <1.1.0-0',
+183 silly addNameRange   hasData: false }
+184 silly addNameRange { name: 'inotify', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+185 verbose url raw inotify
+186 verbose url resolving [ 'https://registry.npmjs.org/', './inotify' ]
+187 verbose url resolved https://registry.npmjs.org/inotify
+188 info trying registry request attempt 1 at 14:30:38
+189 http GET https://registry.npmjs.org/inotify
+190 verbose url raw pkginfo
+191 verbose url resolving [ 'https://registry.npmjs.org/', './pkginfo' ]
+192 verbose url resolved https://registry.npmjs.org/pkginfo
+193 info trying registry request attempt 1 at 14:30:38
+194 verbose etag "2DF0Z53I1AMXBKU18Q7NSWUR0"
+195 http GET https://registry.npmjs.org/pkginfo
+196 verbose url raw socket.io
+197 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+198 verbose url resolved https://registry.npmjs.org/socket.io
+199 info trying registry request attempt 1 at 14:30:38
+200 verbose etag "3E8NJW60YYWAZ3J28B06ALVKM"
+201 http GET https://registry.npmjs.org/socket.io
+202 verbose url raw commander
+203 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+204 verbose url resolved https://registry.npmjs.org/commander
+205 info trying registry request attempt 1 at 14:30:38
+206 verbose etag "48V3IT8URI764ZJZYYWBB0BFJ"
+207 http GET https://registry.npmjs.org/commander
+208 http 200 https://registry.npmjs.org/inotify
+209 silly registry.get cb [ 200,
+209 silly registry.get   { date: 'Sat, 15 Mar 2014 04:30:39 GMT',
+209 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+209 silly registry.get     etag: '"2W2F78P1RJPXLMMDDU6TVA5LZ"',
+209 silly registry.get     'content-type': 'application/json',
+209 silly registry.get     via: '1.1 varnish',
+209 silly registry.get     'cache-control': 'max-age=1',
+209 silly registry.get     'content-length': '23891',
+209 silly registry.get     'accept-ranges': 'bytes',
+209 silly registry.get     age: '0',
+209 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-syd1622-SYD',
+209 silly registry.get     'x-cache': 'MISS, MISS',
+209 silly registry.get     'x-cache-hits': '0, 0',
+209 silly registry.get     'x-timer': 'S1394857839.140798092,VS0,VS12,VE40,VE255',
+209 silly registry.get     vary: 'Accept',
+209 silly registry.get     'keep-alive': 'timeout=10, max=50',
+209 silly registry.get     connection: 'Keep-Alive' } ]
+210 silly addNameRange number 2 { name: 'inotify', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+211 silly addNameRange versions [ 'inotify',
+211 silly addNameRange   [ '0.1.2',
+211 silly addNameRange     '0.1.3',
+211 silly addNameRange     '0.1.4',
+211 silly addNameRange     '0.1.5',
+211 silly addNameRange     '0.1.6',
+211 silly addNameRange     '0.1.7',
+211 silly addNameRange     '0.1.8',
+211 silly addNameRange     '0.2.0',
+211 silly addNameRange     '0.2.1',
+211 silly addNameRange     '0.2.2',
+211 silly addNameRange     '1.0.0',
+211 silly addNameRange     '1.1.0',
+211 silly addNameRange     '1.2.0',
+211 silly addNameRange     '1.2.1' ] ]
+212 verbose addNamed [ 'inotify', '1.0.0' ]
+213 verbose addNamed [ '1.0.0', '1.0.0' ]
+214 silly lockFile e457a9a2-inotify-1-0-0 inotify@1.0.0
+215 verbose lock inotify@1.0.0 /home/michieljoris/.npm/e457a9a2-inotify-1-0-0.lock
+216 silly lockFile 05134c35-js-org-inotify-inotify-1-0-0-tgz https://registry.npmjs.org/inotify/-/inotify-1.0.0.tgz
+217 verbose lock https://registry.npmjs.org/inotify/-/inotify-1.0.0.tgz /home/michieljoris/.npm/05134c35-js-org-inotify-inotify-1-0-0-tgz.lock
+218 verbose addRemoteTarball [ 'https://registry.npmjs.org/inotify/-/inotify-1.0.0.tgz',
+218 verbose addRemoteTarball   'c072e239d9e976b427977fc5509b53a8a9f01bd8' ]
+219 info retry fetch attempt 1 at 14:30:39
+220 verbose fetch to= /home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/tmp.tgz
+221 http GET https://registry.npmjs.org/inotify/-/inotify-1.0.0.tgz
+222 http 200 https://registry.npmjs.org/commander
+223 silly registry.get cb [ 200,
+223 silly registry.get   { date: 'Sat, 15 Mar 2014 04:30:39 GMT',
+223 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+223 silly registry.get     etag: '"9WVRZBZ6DH3TIU9F9UWGCVKFK"',
+223 silly registry.get     'content-type': 'application/json',
+223 silly registry.get     via: '1.1 varnish',
+223 silly registry.get     'cache-control': 'max-age=1',
+223 silly registry.get     'content-length': '37442',
+223 silly registry.get     'accept-ranges': 'bytes',
+223 silly registry.get     age: '126',
+223 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-syd1622-SYD',
+223 silly registry.get     'x-cache': 'HIT, HIT',
+223 silly registry.get     'x-cache-hits': '1, 1',
+223 silly registry.get     'x-timer': 'S1394757571.074134350,VS0,VS89,VE89,VE100268304',
+223 silly registry.get     vary: 'Accept',
+223 silly registry.get     'keep-alive': 'timeout=10, max=50',
+223 silly registry.get     connection: 'Keep-Alive' } ]
+224 silly addNameRange number 2 { name: 'commander', range: '>=1.0.5-0 <1.1.0-0', hasData: true }
+225 silly addNameRange versions [ 'commander',
+225 silly addNameRange   [ '0.0.1',
+225 silly addNameRange     '0.0.3',
+225 silly addNameRange     '0.0.4',
+225 silly addNameRange     '0.0.5',
+225 silly addNameRange     '0.1.0',
+225 silly addNameRange     '0.2.0',
+225 silly addNameRange     '0.2.1',
+225 silly addNameRange     '0.3.0',
+225 silly addNameRange     '0.3.1',
+225 silly addNameRange     '0.3.2',
+225 silly addNameRange     '0.3.3',
+225 silly addNameRange     '0.4.0',
+225 silly addNameRange     '0.4.1',
+225 silly addNameRange     '0.4.2',
+225 silly addNameRange     '0.4.3',
+225 silly addNameRange     '0.5.0',
+225 silly addNameRange     '0.5.1',
+225 silly addNameRange     '0.6.0',
+225 silly addNameRange     '0.6.1',
+225 silly addNameRange     '0.5.2',
+225 silly addNameRange     '1.0.0',
+225 silly addNameRange     '1.0.1',
+225 silly addNameRange     '1.0.2',
+225 silly addNameRange     '1.0.3',
+225 silly addNameRange     '1.0.4',
+225 silly addNameRange     '1.0.5',
+225 silly addNameRange     '1.1.0',
+225 silly addNameRange     '1.1.1',
+225 silly addNameRange     '1.2.0',
+225 silly addNameRange     '1.3.0',
+225 silly addNameRange     '1.3.1',
+225 silly addNameRange     '1.3.2',
+225 silly addNameRange     '2.0.0',
+225 silly addNameRange     '2.1.0' ] ]
+226 verbose addNamed [ 'commander', '1.0.5' ]
+227 verbose addNamed [ '1.0.5', '1.0.5' ]
+228 silly lockFile c1db8845-commander-1-0-5 commander@1.0.5
+229 verbose lock commander@1.0.5 /home/michieljoris/.npm/c1db8845-commander-1-0-5.lock
+230 silly lockFile 3821ed1b-rg-commander-commander-1-0-5-tgz https://registry.npmjs.org/commander/-/commander-1.0.5.tgz
+231 verbose lock https://registry.npmjs.org/commander/-/commander-1.0.5.tgz /home/michieljoris/.npm/3821ed1b-rg-commander-commander-1-0-5-tgz.lock
+232 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-1.0.5.tgz',
+232 verbose addRemoteTarball   '457295bb976e388e9dd0db52de4333e249f3d88c' ]
+233 info retry fetch attempt 1 at 14:30:39
+234 verbose fetch to= /home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/tmp.tgz
+235 http GET https://registry.npmjs.org/commander/-/commander-1.0.5.tgz
+236 http 200 https://registry.npmjs.org/socket.io
+237 silly registry.get cb [ 200,
+237 silly registry.get   { date: 'Sat, 15 Mar 2014 04:30:39 GMT',
+237 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+237 silly registry.get     etag: '"123775W5ZMGDS7HAZXIW1SW49"',
+237 silly registry.get     'content-type': 'application/json',
+237 silly registry.get     via: '1.1 varnish',
+237 silly registry.get     'cache-control': 'max-age=1',
+237 silly registry.get     'content-length': '77244',
+237 silly registry.get     'accept-ranges': 'bytes',
+237 silly registry.get     age: '193',
+237 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-syd1620-SYD',
+237 silly registry.get     'x-cache': 'HIT, MISS',
+237 silly registry.get     'x-cache-hits': '2, 0',
+237 silly registry.get     'x-timer': 'S1394831935.366698980,VS0,VS42,VE42,VE25904155',
+237 silly registry.get     vary: 'Accept',
+237 silly registry.get     'keep-alive': 'timeout=10, max=50',
+237 silly registry.get     connection: 'Keep-Alive' } ]
+238 http 304 https://registry.npmjs.org/pkginfo
+239 silly registry.get cb [ 304,
+239 silly registry.get   { date: 'Sat, 15 Mar 2014 04:30:39 GMT',
+239 silly registry.get     server: 'Apache',
+239 silly registry.get     via: '1.1 varnish',
+239 silly registry.get     'last-modified': 'Sat, 15 Mar 2014 04:30:39 GMT',
+239 silly registry.get     'cache-control': 'max-age=1',
+239 silly registry.get     etag: '"2DF0Z53I1AMXBKU18Q7NSWUR0"',
+239 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+239 silly registry.get     'x-cache': 'HIT',
+239 silly registry.get     'x-cache-hits': '1',
+239 silly registry.get     'x-timer': 'S1394857839.142711401,VS0,VE454',
+239 silly registry.get     vary: 'Accept',
+239 silly registry.get     'content-length': '0',
+239 silly registry.get     'keep-alive': 'timeout=10, max=50',
+239 silly registry.get     connection: 'Keep-Alive' } ]
+240 verbose etag pkginfo from cache
+241 silly addNameRange number 2 { name: 'pkginfo', range: '>=0.2.3-0 <0.3.0-0', hasData: true }
+242 silly addNameRange versions [ 'pkginfo', [ '0.2.1', '0.2.2', '0.2.3', '0.3.0' ] ]
+243 verbose addNamed [ 'pkginfo', '0.2.3' ]
+244 verbose addNamed [ '0.2.3', '0.2.3' ]
+245 silly lockFile d1747791-pkginfo-0-2-3 pkginfo@0.2.3
+246 verbose lock pkginfo@0.2.3 /home/michieljoris/.npm/d1747791-pkginfo-0-2-3.lock
+247 silly addNameRange number 2 { name: 'socket.io',
+247 silly addNameRange   range: '>=0.9.10-0 <0.10.0-0',
+247 silly addNameRange   hasData: true }
+248 silly addNameRange versions [ 'socket.io',
+248 silly addNameRange   [ '0.3.8',
+248 silly addNameRange     '0.4.0',
+248 silly addNameRange     '0.4.1',
+248 silly addNameRange     '0.5.1',
+248 silly addNameRange     '0.5.3',
+248 silly addNameRange     '0.6.0',
+248 silly addNameRange     '0.6.1',
+248 silly addNameRange     '0.6.3',
+248 silly addNameRange     '0.6.4',
+248 silly addNameRange     '0.6.5',
+248 silly addNameRange     '0.6.6',
+248 silly addNameRange     '0.6.7',
+248 silly addNameRange     '0.6.8',
+248 silly addNameRange     '0.6.9',
+248 silly addNameRange     '0.6.10',
+248 silly addNameRange     '0.6.11',
+248 silly addNameRange     '0.6.12',
+248 silly addNameRange     '0.6.14',
+248 silly addNameRange     '0.6.15',
+248 silly addNameRange     '0.6.16',
+248 silly addNameRange     '0.6.17',
+248 silly addNameRange     '0.6.18',
+248 silly addNameRange     '0.7.0',
+248 silly addNameRange     '0.7.1',
+248 silly addNameRange     '0.7.2',
+248 silly addNameRange     '0.7.3',
+248 silly addNameRange     '0.7.4',
+248 silly addNameRange     '0.7.5',
+248 silly addNameRange     '0.7.6',
+248 silly addNameRange     '0.7.7',
+248 silly addNameRange     '0.7.8',
+248 silly addNameRange     '0.7.9',
+248 silly addNameRange     '0.7.10',
+248 silly addNameRange     '0.7.11',
+248 silly addNameRange     '0.8.0',
+248 silly addNameRange     '0.8.1',
+248 silly addNameRange     '0.8.2',
+248 silly addNameRange     '0.8.3',
+248 silly addNameRange     '0.8.4',
+248 silly addNameRange     '0.8.5',
+248 silly addNameRange     '0.8.6',
+248 silly addNameRange     '0.8.7',
+248 silly addNameRange     '0.9.0',
+248 silly addNameRange     '0.9.1',
+248 silly addNameRange     '0.9.1-1',
+248 silly addNameRange     '0.9.2',
+248 silly addNameRange     '0.9.3',
+248 silly addNameRange     '0.9.4',
+248 silly addNameRange     '0.9.5',
+248 silly addNameRange     '0.9.6',
+248 silly addNameRange     '0.9.7',
+248 silly addNameRange     '0.9.8',
+248 silly addNameRange     '0.9.9',
+248 silly addNameRange     '0.9.10',
+248 silly addNameRange     '0.9.11',
+248 silly addNameRange     '0.9.12',
+248 silly addNameRange     '0.9.13',
+248 silly addNameRange     '0.9.14',
+248 silly addNameRange     '0.9.15',
+248 silly addNameRange     '0.9.16' ] ]
+249 verbose addNamed [ 'socket.io', '0.9.16' ]
+250 verbose addNamed [ '0.9.16', '0.9.16' ]
+251 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+252 verbose lock socket.io@0.9.16 /home/michieljoris/.npm/a7acce22-socket-io-0-9-16.lock
+253 silly lockFile d1747791-pkginfo-0-2-3 pkginfo@0.2.3
+254 silly lockFile d1747791-pkginfo-0-2-3 pkginfo@0.2.3
+255 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+256 silly lockFile a7acce22-socket-io-0-9-16 socket.io@0.9.16
+257 silly lockFile c7067688-pkginfo-0-2-3 pkginfo@~0.2.3
+258 silly lockFile c7067688-pkginfo-0-2-3 pkginfo@~0.2.3
+259 silly lockFile 51851f13-socket-io-0-9-10 socket.io@~0.9.10
+260 silly lockFile 51851f13-socket-io-0-9-10 socket.io@~0.9.10
+261 http 200 https://registry.npmjs.org/commander/-/commander-1.0.5.tgz
+262 verbose tar unpack /home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/tmp.tgz
+263 silly lockFile 5ab98996-39559-0-9083199894521385-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package
+264 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package /home/michieljoris/.npm/5ab98996-39559-0-9083199894521385-package.lock
+265 silly lockFile 43f137ff-39559-0-9083199894521385-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/tmp.tgz
+266 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/tmp.tgz /home/michieljoris/.npm/43f137ff-39559-0-9083199894521385-tmp-tgz.lock
+267 silly gunzTarPerm modes [ '755', '644' ]
+268 silly gunzTarPerm extractEntry package.json
+269 silly gunzTarPerm extractEntry .npmignore
+270 silly gunzTarPerm extractEntry index.js
+271 silly gunzTarPerm extractEntry .travis.yml
+272 silly gunzTarPerm extractEntry History.md
+273 silly gunzTarPerm extractEntry lib/commander.js
+274 silly gunzTarPerm extractEntry Makefile
+275 silly gunzTarPerm extractEntry Readme.md
+276 silly lockFile 5ab98996-39559-0-9083199894521385-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package
+277 silly lockFile 5ab98996-39559-0-9083199894521385-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package
+278 silly lockFile 43f137ff-39559-0-9083199894521385-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/tmp.tgz
+279 silly lockFile 43f137ff-39559-0-9083199894521385-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/tmp.tgz
+280 verbose tar pack [ '/home/michieljoris/.npm/commander/1.0.5/package.tgz',
+280 verbose tar pack   '/home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package' ]
+281 verbose tarball /home/michieljoris/.npm/commander/1.0.5/package.tgz
+282 verbose folder /home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package
+283 silly lockFile 5ab98996-39559-0-9083199894521385-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package
+284 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package /home/michieljoris/.npm/5ab98996-39559-0-9083199894521385-package.lock
+285 silly lockFile d0c61fe2--npm-commander-1-0-5-package-tgz tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz
+286 verbose lock tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz /home/michieljoris/.npm/d0c61fe2--npm-commander-1-0-5-package-tgz.lock
+287 silly lockFile 5ab98996-39559-0-9083199894521385-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package
+288 silly lockFile 5ab98996-39559-0-9083199894521385-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839559-0.9083199894521385/package
+289 silly lockFile d0c61fe2--npm-commander-1-0-5-package-tgz tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz
+290 silly lockFile d0c61fe2--npm-commander-1-0-5-package-tgz tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz
+291 silly lockFile 8b100ce3-oris-npm-commander-1-0-5-package /home/michieljoris/.npm/commander/1.0.5/package
+292 verbose lock /home/michieljoris/.npm/commander/1.0.5/package /home/michieljoris/.npm/8b100ce3-oris-npm-commander-1-0-5-package.lock
+293 silly lockFile 8b100ce3-oris-npm-commander-1-0-5-package /home/michieljoris/.npm/commander/1.0.5/package
+294 silly lockFile 8b100ce3-oris-npm-commander-1-0-5-package /home/michieljoris/.npm/commander/1.0.5/package
+295 verbose tar unpack /home/michieljoris/.npm/commander/1.0.5/package.tgz
+296 silly lockFile 94b43a42-oris-npm-commander-1-0-5-package tar:///home/michieljoris/.npm/commander/1.0.5/package
+297 verbose lock tar:///home/michieljoris/.npm/commander/1.0.5/package /home/michieljoris/.npm/94b43a42-oris-npm-commander-1-0-5-package.lock
+298 silly lockFile d0c61fe2--npm-commander-1-0-5-package-tgz tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz
+299 verbose lock tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz /home/michieljoris/.npm/d0c61fe2--npm-commander-1-0-5-package-tgz.lock
+300 silly gunzTarPerm modes [ '755', '644' ]
+301 silly gunzTarPerm extractEntry package.json
+302 silly gunzTarPerm extractEntry .npmignore
+303 silly gunzTarPerm extractEntry index.js
+304 silly gunzTarPerm extractEntry .travis.yml
+305 silly gunzTarPerm extractEntry History.md
+306 silly gunzTarPerm extractEntry Makefile
+307 silly gunzTarPerm extractEntry Readme.md
+308 silly gunzTarPerm extractEntry lib/commander.js
+309 silly lockFile 94b43a42-oris-npm-commander-1-0-5-package tar:///home/michieljoris/.npm/commander/1.0.5/package
+310 silly lockFile 94b43a42-oris-npm-commander-1-0-5-package tar:///home/michieljoris/.npm/commander/1.0.5/package
+311 silly lockFile d0c61fe2--npm-commander-1-0-5-package-tgz tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz
+312 silly lockFile d0c61fe2--npm-commander-1-0-5-package-tgz tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz
+313 verbose chmod /home/michieljoris/.npm/commander/1.0.5/package.tgz 644
+314 verbose chown /home/michieljoris/.npm/commander/1.0.5/package.tgz [ 1000, 100 ]
+315 silly lockFile 3821ed1b-rg-commander-commander-1-0-5-tgz https://registry.npmjs.org/commander/-/commander-1.0.5.tgz
+316 silly lockFile 3821ed1b-rg-commander-commander-1-0-5-tgz https://registry.npmjs.org/commander/-/commander-1.0.5.tgz
+317 silly lockFile c1db8845-commander-1-0-5 commander@1.0.5
+318 silly lockFile c1db8845-commander-1-0-5 commander@1.0.5
+319 silly lockFile c5f7a27c-commander-1-0-5 commander@~1.0.5
+320 silly lockFile c5f7a27c-commander-1-0-5 commander@~1.0.5
+321 http 200 https://registry.npmjs.org/inotify/-/inotify-1.0.0.tgz
+322 verbose tar unpack /home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/tmp.tgz
+323 silly lockFile b7f8d856-39493-0-5273606819100678-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package
+324 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package /home/michieljoris/.npm/b7f8d856-39493-0-5273606819100678-package.lock
+325 silly lockFile 4790b010-39493-0-5273606819100678-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/tmp.tgz
+326 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/tmp.tgz /home/michieljoris/.npm/4790b010-39493-0-5273606819100678-tmp-tgz.lock
+327 silly gunzTarPerm modes [ '755', '644' ]
+328 silly gunzTarPerm extractEntry package.json
+329 silly gunzTarPerm extractEntry .npmignore
+330 silly gunzTarPerm extractEntry README.md
+331 silly gunzTarPerm extractEntry LICENSE
+332 silly gunzTarPerm extractEntry example.js
+333 silly gunzTarPerm extractEntry inotify.js
+334 silly gunzTarPerm extractEntry wscript
+335 silly gunzTarPerm extractEntry AUTHORS
+336 silly gunzTarPerm extractEntry binding.gyp
+337 silly gunzTarPerm extractEntry src/bindings.h
+338 silly gunzTarPerm extractEntry src/wscript
+339 silly gunzTarPerm extractEntry src/node_inotify.h
+340 silly gunzTarPerm extractEntry src/bindings.cc
+341 silly gunzTarPerm extractEntry src/node_inotify.cc
+342 silly lockFile b7f8d856-39493-0-5273606819100678-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package
+343 silly lockFile b7f8d856-39493-0-5273606819100678-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package
+344 silly lockFile 4790b010-39493-0-5273606819100678-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/tmp.tgz
+345 silly lockFile 4790b010-39493-0-5273606819100678-tmp-tgz tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/tmp.tgz
+346 verbose tar pack [ '/home/michieljoris/.npm/inotify/1.0.0/package.tgz',
+346 verbose tar pack   '/home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package' ]
+347 verbose tarball /home/michieljoris/.npm/inotify/1.0.0/package.tgz
+348 verbose folder /home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package
+349 silly lockFile b7f8d856-39493-0-5273606819100678-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package
+350 verbose lock tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package /home/michieljoris/.npm/b7f8d856-39493-0-5273606819100678-package.lock
+351 silly lockFile f19a875c-is-npm-inotify-1-0-0-package-tgz tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz
+352 verbose lock tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz /home/michieljoris/.npm/f19a875c-is-npm-inotify-1-0-0-package-tgz.lock
+353 silly lockFile b7f8d856-39493-0-5273606819100678-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package
+354 silly lockFile b7f8d856-39493-0-5273606819100678-package tar:///home/michieljoris/tmp/npm-30780-ILamiAli/1394857839493-0.5273606819100678/package
+355 silly lockFile f19a875c-is-npm-inotify-1-0-0-package-tgz tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz
+356 silly lockFile f19a875c-is-npm-inotify-1-0-0-package-tgz tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz
+357 silly lockFile d6602984-ljoris-npm-inotify-1-0-0-package /home/michieljoris/.npm/inotify/1.0.0/package
+358 verbose lock /home/michieljoris/.npm/inotify/1.0.0/package /home/michieljoris/.npm/d6602984-ljoris-npm-inotify-1-0-0-package.lock
+359 silly lockFile d6602984-ljoris-npm-inotify-1-0-0-package /home/michieljoris/.npm/inotify/1.0.0/package
+360 silly lockFile d6602984-ljoris-npm-inotify-1-0-0-package /home/michieljoris/.npm/inotify/1.0.0/package
+361 verbose tar unpack /home/michieljoris/.npm/inotify/1.0.0/package.tgz
+362 silly lockFile f525c58c-ljoris-npm-inotify-1-0-0-package tar:///home/michieljoris/.npm/inotify/1.0.0/package
+363 verbose lock tar:///home/michieljoris/.npm/inotify/1.0.0/package /home/michieljoris/.npm/f525c58c-ljoris-npm-inotify-1-0-0-package.lock
+364 silly lockFile f19a875c-is-npm-inotify-1-0-0-package-tgz tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz
+365 verbose lock tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz /home/michieljoris/.npm/f19a875c-is-npm-inotify-1-0-0-package-tgz.lock
+366 silly gunzTarPerm modes [ '755', '644' ]
+367 silly gunzTarPerm extractEntry package.json
+368 silly gunzTarPerm extractEntry .npmignore
+369 silly gunzTarPerm extractEntry README.md
+370 silly gunzTarPerm extractEntry LICENSE
+371 silly gunzTarPerm extractEntry example.js
+372 silly gunzTarPerm extractEntry inotify.js
+373 silly gunzTarPerm extractEntry AUTHORS
+374 silly gunzTarPerm extractEntry binding.gyp
+375 silly gunzTarPerm extractEntry src/bindings.cc
+376 silly gunzTarPerm extractEntry src/bindings.h
+377 silly gunzTarPerm extractEntry src/node_inotify.cc
+378 silly gunzTarPerm extractEntry src/node_inotify.h
+379 silly gunzTarPerm extractEntry src/wscript
+380 silly gunzTarPerm extractEntry wscript
+381 silly lockFile f525c58c-ljoris-npm-inotify-1-0-0-package tar:///home/michieljoris/.npm/inotify/1.0.0/package
+382 silly lockFile f525c58c-ljoris-npm-inotify-1-0-0-package tar:///home/michieljoris/.npm/inotify/1.0.0/package
+383 silly lockFile f19a875c-is-npm-inotify-1-0-0-package-tgz tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz
+384 silly lockFile f19a875c-is-npm-inotify-1-0-0-package-tgz tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz
+385 verbose chmod /home/michieljoris/.npm/inotify/1.0.0/package.tgz 644
+386 verbose chown /home/michieljoris/.npm/inotify/1.0.0/package.tgz [ 1000, 100 ]
+387 silly lockFile 05134c35-js-org-inotify-inotify-1-0-0-tgz https://registry.npmjs.org/inotify/-/inotify-1.0.0.tgz
+388 silly lockFile 05134c35-js-org-inotify-inotify-1-0-0-tgz https://registry.npmjs.org/inotify/-/inotify-1.0.0.tgz
+389 silly lockFile e457a9a2-inotify-1-0-0 inotify@1.0.0
+390 silly lockFile e457a9a2-inotify-1-0-0 inotify@1.0.0
+391 silly lockFile d2fee677-inotify-1-0-0 inotify@~1.0.0
+392 silly lockFile d2fee677-inotify-1-0-0 inotify@~1.0.0
+393 silly resolved [ { name: 'pkginfo',
+393 silly resolved     version: '0.2.3',
+393 silly resolved     description: 'An easy way to expose properties on a module from a package.json',
+393 silly resolved     author: { name: 'Charlie Robbins', email: 'charlie.robbins@gmail.com' },
+393 silly resolved     repository:
+393 silly resolved      { type: 'git',
+393 silly resolved        url: 'http://github.com/indexzero/node-pkginfo.git' },
+393 silly resolved     keywords: [ 'info', 'tools', 'package.json' ],
+393 silly resolved     devDependencies: { vows: '0.6.x' },
+393 silly resolved     main: './lib/pkginfo',
+393 silly resolved     scripts: { test: 'vows test/*-test.js --spec' },
+393 silly resolved     engines: { node: '>= 0.4.0' },
+393 silly resolved     readme: '# node-pkginfo\n\nAn easy way to expose properties on a module from a package.json\n\n## Installation\n\n### Installing npm (node package manager)\n```\n  curl http://npmjs.org/install.sh | sh\n```\n\n### Installing pkginfo\n```\n  [sudo] npm install pkginfo\n```\n\n## Motivation\nHow often when writing node.js modules have you written the following line(s) of code? \n\n* Hard code your version string into your code\n\n``` js\n  exports.version = \'0.1.0\';\n```\n\n* Programmatically expose the version from the package.json\n\n``` js\n  exports.version = JSON.parse(fs.readFileSync(\'/path/to/package.json\', \'utf8\')).version;\n```\n\nIn other words, how often have you wanted to expose basic information from your package.json onto your module programmatically? **WELL NOW YOU CAN!**\n\n## Usage\n\nUsing `pkginfo` is idiot-proof, just require and invoke it. \n\n``` js\n  var pkginfo = require(\'pkginfo\')(module);\n  \n  console.dir(module.exports);\n```\n\nBy invoking the `pkginfo` module all of the properties in your `package.json` file will be automatically exposed on the callee module (i.e. the parent module of `pkginfo`). \n\nHere\'s a sample of the output:\n\n```\n  { name: \'simple-app\',\n    description: \'A test fixture for pkginfo\',\n    version: \'0.1.0\',\n    author: \'Charlie Robbins <charlie.robbins@gmail.com>\',\n    keywords: [ \'test\', \'fixture\' ],\n    main: \'./index.js\',\n    scripts: { test: \'vows test/*-test.js --spec\' },\n    engines: { node: \'>= 0.4.0\' } }\n```\n\n### Expose specific properties\nIf you don\'t want to expose **all** properties on from your `package.json` on your module then simple pass those properties to the `pkginfo` function:\n\n``` js\n  var pkginfo = require(\'pkginfo\')(module, \'version\', \'author\');\n  \n  console.dir(module.exports);\n```\n\n```\n  { version: \'0.1.0\',\n    author: \'Charlie Robbins <charlie.robbins@gmail.com>\' }\n```\n\nIf you\'re looking for further usage see the [examples][0] included in this repository. \n\n## Run Tests\nTests are written in [vows][1] and give complete coverage of all APIs.\n\n```\n  vows test/*-test.js --spec\n```\n\n[0]: https://github.com/indexzero/node-pkginfo/tree/master/examples\n[1]: http://vowsjs.org\n\n#### Author: [Charlie Robbins](http://nodejitsu.com)',
+393 silly resolved     readmeFilename: 'README.md',
+393 silly resolved     bugs: { url: 'https://github.com/indexzero/node-pkginfo/issues' },
+393 silly resolved     homepage: 'https://github.com/indexzero/node-pkginfo',
+393 silly resolved     _id: 'pkginfo@0.2.3',
+393 silly resolved     _from: 'pkginfo@~0.2.3' },
+393 silly resolved   { name: 'socket.io',
+393 silly resolved     version: '0.9.16',
+393 silly resolved     description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+393 silly resolved     homepage: 'http://socket.io',
+393 silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+393 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+393 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+393 silly resolved     repository:
+393 silly resolved      { type: 'git',
+393 silly resolved        url: 'https://github.com/LearnBoost/socket.io.git' },
+393 silly resolved     dependencies:
+393 silly resolved      { 'socket.io-client': '0.9.16',
+393 silly resolved        policyfile: '0.0.4',
+393 silly resolved        base64id: '0.1.0',
+393 silly resolved        redis: '0.7.3' },
+393 silly resolved     devDependencies:
+393 silly resolved      { expresso: '0.9.2',
+393 silly resolved        should: '*',
+393 silly resolved        benchmark: '0.2.2',
+393 silly resolved        microtime: '0.1.3-1',
+393 silly resolved        colors: '0.5.1' },
+393 silly resolved     optionalDependencies: { redis: '0.7.3' },
+393 silly resolved     main: 'index',
+393 silly resolved     engines: { node: '>= 0.4.0' },
+393 silly resolved     scripts: { test: 'make test' },
+393 silly resolved     readme: '# Socket.IO\n\nSocket.IO is a Node.JS project that makes WebSockets and realtime possible in\nall browsers. It also enhances WebSockets by providing built-in multiplexing,\nhorizontal scalability, automatic JSON encoding/decoding, and more.\n\n## How to Install\n\n```bash\nnpm install socket.io\n```\n\n## How to use\n\nFirst, require `socket.io`:\n\n```js\nvar io = require(\'socket.io\');\n```\n\nNext, attach it to a HTTP/HTTPS server. If you\'re using the fantastic `express`\nweb framework:\n\n#### Express 3.x\n\n```js\nvar app = express()\n  , server = require(\'http\').createServer(app)\n  , io = io.listen(server);\n\nserver.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\n#### Express 2.x\n\n```js\nvar app = express.createServer()\n  , io = io.listen(app);\n\napp.listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.emit(\'news\', { hello: \'world\' });\n  socket.on(\'my other event\', function (data) {\n    console.log(data);\n  });\n});\n```\n\nFinally, load it from the client side code:\n\n```html\n<script src="/socket.io/socket.io.js"></script>\n<script>\n  var socket = io.connect(\'http://localhost\');\n  socket.on(\'news\', function (data) {\n    console.log(data);\n    socket.emit(\'my other event\', { my: \'data\' });\n  });\n</script>\n```\n\nFor more thorough examples, look at the `examples/` directory.\n\n## Short recipes\n\n### Sending and receiving events.\n\nSocket.IO allows you to emit and receive custom events.\nBesides `connect`, `message` and `disconnect`, you can emit custom events:\n\n```js\n// note, io.listen(<port>) will create a http server for you\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  io.sockets.emit(\'this\', { will: \'be received by everyone\' });\n\n  socket.on(\'private message\', function (from, msg) {\n    console.log(\'I received a private message by \', from, \' saying \', msg);\n  });\n\n  socket.on(\'disconnect\', function () {\n    io.sockets.emit(\'user disconnected\');\n  });\n});\n```\n\n### Storing data associated to a client\n\nSometimes it\'s necessary to store data associated with a client that\'s\nnecessary for the duration of the session.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'set nickname\', function (name) {\n    socket.set(\'nickname\', name, function () { socket.emit(\'ready\'); });\n  });\n\n  socket.on(\'msg\', function () {\n    socket.get(\'nickname\', function (err, name) {\n      console.log(\'Chat message by \', name);\n    });\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost\');\n\n  socket.on(\'connect\', function () {\n    socket.emit(\'set nickname\', prompt(\'What is your nickname?\'));\n    socket.on(\'ready\', function () {\n      console.log(\'Connected !\');\n      socket.emit(\'msg\', prompt(\'What is your message?\'));\n    });\n  });\n</script>\n```\n\n### Restricting yourself to a namespace\n\nIf you have control over all the messages and events emitted for a particular\napplication, using the default `/` namespace works.\n\nIf you want to leverage 3rd-party code, or produce code to share with others,\nsocket.io provides a way of namespacing a `socket`.\n\nThis has the benefit of `multiplexing` a single connection. Instead of\nsocket.io using two `WebSocket` connections, it\'ll use one.\n\nThe following example defines a socket that listens on \'/chat\' and one for\n\'/news\':\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nvar chat = io\n  .of(\'/chat\')\n  .on(\'connection\', function (socket) {\n    socket.emit(\'a message\', { that: \'only\', \'/chat\': \'will get\' });\n    chat.emit(\'a message\', { everyone: \'in\', \'/chat\': \'will get\' });\n  });\n\nvar news = io\n  .of(\'/news\');\n  .on(\'connection\', function (socket) {\n    socket.emit(\'item\', { news: \'item\' });\n  });\n```\n\n#### Client side:\n\n```html\n<script>\n  var chat = io.connect(\'http://localhost/chat\')\n    , news = io.connect(\'http://localhost/news\');\n\n  chat.on(\'connect\', function () {\n    chat.emit(\'hi!\');\n  });\n\n  news.on(\'news\', function () {\n    news.emit(\'woot\');\n  });\n</script>\n```\n\n### Sending volatile messages.\n\nSometimes certain messages can be dropped. Let\'s say you have an app that\nshows realtime tweets for the keyword `bieber`. \n\nIf a certain client is not ready to receive messages (because of network slowness\nor other issues, or because he\'s connected through long polling and is in the\nmiddle of a request-response cycle), if he doesn\'t receive ALL the tweets related\nto bieber your application won\'t suffer.\n\nIn that case, you might want to send those messages as volatile messages.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  var tweets = setInterval(function () {\n    getBieberTweet(function (tweet) {\n      socket.volatile.emit(\'bieber tweet\', tweet);\n    });\n  }, 100);\n\n  socket.on(\'disconnect\', function () {\n    clearInterval(tweets);\n  });\n});\n```\n\n#### Client side\n\nIn the client side, messages are received the same way whether they\'re volatile\nor not.\n\n### Getting acknowledgements\n\nSometimes, you might want to get a callback when the client confirmed the message\nreception.\n\nTo do this, simply pass a function as the last parameter of `.send` or `.emit`.\nWhat\'s more, when you use `.emit`, the acknowledgement is done by you, which\nmeans you can also pass data along:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'ferret\', function (name, fn) {\n    fn(\'woot\');\n  });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(); // TIP: .connect with no args does auto-discovery\n  socket.on(\'connect\', function () { // TIP: you can avoid listening on `connect` and listen on events directly too!\n    socket.emit(\'ferret\', \'tobi\', function (data) {\n      console.log(data); // data will be \'woot\'\n    });\n  });\n</script>\n```\n\n### Broadcasting messages\n\nTo broadcast, simply add a `broadcast` flag to `emit` and `send` method calls.\nBroadcasting means sending a message to everyone else except for the socket\nthat starts it.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.broadcast.emit(\'user connected\');\n  socket.broadcast.json.send({ a: \'message\' });\n});\n```\n\n### Rooms\n\nSometimes you want to put certain sockets in the same room, so that it\'s easy\nto broadcast to all of them together.\n\nThink of this as built-in channels for sockets. Sockets `join` and `leave`\nrooms in each socket.\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.join(\'justin bieber fans\');\n  socket.broadcast.to(\'justin bieber fans\').emit(\'new fan\');\n  io.sockets.in(\'rammstein fans\').emit(\'new non-fan\');\n});\n```\n\n### Using it just as a cross-browser WebSocket\n\nIf you just want the WebSocket semantics, you can do that too.\nSimply leverage `send` and listen on the `message` event:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.sockets.on(\'connection\', function (socket) {\n  socket.on(\'message\', function () { });\n  socket.on(\'disconnect\', function () { });\n});\n```\n\n#### Client side\n\n```html\n<script>\n  var socket = io.connect(\'http://localhost/\');\n  socket.on(\'connect\', function () {\n    socket.send(\'hi\');\n\n    socket.on(\'message\', function (msg) {\n      // my msg\n    });\n  });\n</script>\n```\n\n### Changing configuration\n\nConfiguration in socket.io is TJ-style:\n\n#### Server side\n\n```js\nvar io = require(\'socket.io\').listen(80);\n\nio.configure(function () {\n  io.set(\'transports\', [\'websocket\', \'flashsocket\', \'xhr-polling\']);\n});\n\nio.configure(\'development\', function () {\n  io.set(\'transports\', [\'websocket\', \'xhr-polling\']);\n  io.enable(\'log\');\n});\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 Guillermo Rauch &lt;guillermo@learnboost.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+393 silly resolved     readmeFilename: 'Readme.md',
+393 silly resolved     bugs: { url: 'https://github.com/LearnBoost/socket.io/issues' },
+393 silly resolved     _id: 'socket.io@0.9.16',
+393 silly resolved     _from: 'socket.io@~0.9.10' },
+393 silly resolved   { name: 'commander',
+393 silly resolved     version: '1.0.5',
+393 silly resolved     description: 'the complete solution for node.js command-line programs',
+393 silly resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+393 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+393 silly resolved     repository:
+393 silly resolved      { type: 'git',
+393 silly resolved        url: 'https://github.com/visionmedia/commander.js.git' },
+393 silly resolved     dependencies: { keypress: '0.1.x' },
+393 silly resolved     devDependencies: { should: '>= 0.0.1' },
+393 silly resolved     scripts: { test: 'make test' },
+393 silly resolved     main: 'index',
+393 silly resolved     engines: { node: '>= 0.6.x' },
+393 silly resolved     readme: '# Commander.js\n\n  The complete solution for [node.js](http://nodejs.org) command-line interfaces, inspired by Ruby\'s [commander](https://github.com/visionmedia/commander).\n\n [![Build Status](https://secure.travis-ci.org/visionmedia/commander.js.png)](http://travis-ci.org/visionmedia/commander.js)\n\n## Installation\n\n    $ npm install commander\n\n## Option parsing\n\n Options with commander are defined with the `.option()` method, also serving as documentation for the options. The example below parses args and options from `process.argv`, leaving remaining args as the `program.args` array which were not consumed by options.\n\n```js\n#!/usr/bin/env node\n\n/**\n * Module dependencies.\n */\n\nvar program = require(\'commander\');\n\nprogram\n  .version(\'0.0.1\')\n  .option(\'-p, --peppers\', \'Add peppers\')\n  .option(\'-P, --pineapple\', \'Add pineapple\')\n  .option(\'-b, --bbq\', \'Add bbq sauce\')\n  .option(\'-c, --cheese [type]\', \'Add the specified type of cheese [marble]\', \'marble\')\n  .parse(process.argv);\n\nconsole.log(\'you ordered a pizza with:\');\nif (program.peppers) console.log(\'  - peppers\');\nif (program.pineapple) console.log(\'  - pineappe\');\nif (program.bbq) console.log(\'  - bbq\');\nconsole.log(\'  - %s cheese\', program.cheese);\n```\n\n Short flags may be passed as a single arg, for example `-abc` is equivalent to `-a -b -c`. Multi-word options such as "--template-engine" are camel-cased, becoming `program.templateEngine` etc.\n\n## Automated --help\n\n The help information is auto-generated based on the information commander already knows about your program, so the following `--help` info is for free:\n\n```  \n $ ./examples/pizza --help\n\n   Usage: pizza [options]\n\n   Options:\n\n     -V, --version        output the version number\n     -p, --peppers        Add peppers\n     -P, --pineapple      Add pineappe\n     -b, --bbq            Add bbq sauce\n     -c, --cheese <type>  Add the specified type of cheese [marble]\n     -h, --help           output usage information\n\n```\n\n## Coercion\n\n```js\nfunction range(val) {\n  return val.split(\'..\').map(Number);\n}\n\nfunction list(val) {\n  return val.split(\',\');\n}\n\nprogram\n  .version(\'0.0.1\')\n  .usage(\'[options] <file ...>\')\n  .option(\'-i, --integer <n>\', \'An integer argument\', parseInt)\n  .option(\'-f, --float <n>\', \'A float argument\', parseFloat)\n  .option(\'-r, --range <a>..<b>\', \'A range\', range)\n  .option(\'-l, --list <items>\', \'A list\', list)\n  .option(\'-o, --optional [value]\', \'An optional value\')\n  .parse(process.argv);\n\nconsole.log(\' int: %j\', program.integer);\nconsole.log(\' float: %j\', program.float);\nconsole.log(\' optional: %j\', program.optional);\nprogram.range = program.range || [];\nconsole.log(\' range: %j..%j\', program.range[0], program.range[1]);\nconsole.log(\' list: %j\', program.list);\nconsole.log(\' args: %j\', program.args);\n```\n\n## Custom help\n\n You can display arbitrary `-h, --help` information\n by listening for "--help". Commander will automatically\n exit once you are done so that the remainder of your program\n does not execute causing undesired behaviours, for example\n in the following executable "stuff" will not output when\n `--help` is used.\n\n```js\n#!/usr/bin/env node\n\n/**\n * Module dependencies.\n */\n\nvar program = require(\'../\');\n\nfunction list(val) {\n  return val.split(\',\').map(Number);\n}\n\nprogram\n  .version(\'0.0.1\')\n  .option(\'-f, --foo\', \'enable some foo\')\n  .option(\'-b, --bar\', \'enable some bar\')\n  .option(\'-B, --baz\', \'enable some baz\');\n\n// must be before .parse() since\n// node\'s emit() is immediate\n\nprogram.on(\'--help\', function(){\n  console.log(\'  Examples:\');\n  console.log(\'\');\n  console.log(\'    $ custom-help --help\');\n  console.log(\'    $ custom-help -h\');\n  console.log(\'\');\n});\n\nprogram.parse(process.argv);\n\nconsole.log(\'stuff\');\n```\n\nyielding the following help output:\n\n```\n\nUsage: custom-help [options]\n\nOptions:\n\n  -h, --help     output usage information\n  -V, --version  output the version number\n  -f, --foo      enable some foo\n  -b, --bar      enable some bar\n  -B, --baz      enable some baz\n\nExamples:\n\n  $ custom-help --help\n  $ custom-help -h\n\n```\n\n## .prompt(msg, fn)\n\n Single-line prompt:\n\n```js\nprogram.prompt(\'name: \', function(name){\n  console.log(\'hi %s\', name);\n});\n```\n\n Multi-line prompt:\n\n```js\nprogram.prompt(\'description:\', function(name){\n  console.log(\'hi %s\', name);\n});\n```\n\n Coercion:\n\n```js\nprogram.prompt(\'Age: \', Number, function(age){\n  console.log(\'age: %j\', age);\n});\n```\n\n```js\nprogram.prompt(\'Birthdate: \', Date, function(date){\n  console.log(\'date: %s\', date);\n});\n```\n\n## .password(msg[, mask], fn)\n\nPrompt for password without echoing:\n\n```js\nprogram.password(\'Password: \', function(pass){\n  console.log(\'got "%s"\', pass);\n  process.stdin.destroy();\n});\n```\n\nPrompt for password with mask char "*":\n\n```js\nprogram.password(\'Password: \', \'*\', function(pass){\n  console.log(\'got "%s"\', pass);\n  process.stdin.destroy();\n});\n```\n\n## .confirm(msg, fn)\n\n Confirm with the given `msg`:\n\n```js\nprogram.confirm(\'continue? \', function(ok){\n  console.log(\' got %j\', ok);\n});\n```\n\n## .choose(list, fn)\n\n Let the user choose from a `list`:\n\n```js\nvar list = [\'tobi\', \'loki\', \'jane\', \'manny\', \'luna\'];\n\nconsole.log(\'Choose the coolest pet:\');\nprogram.choose(list, function(i){\n  console.log(\'you chose %d "%s"\', i, list[i]);\n});\n```\n\n## Links\n\n - [API documentation](http://visionmedia.github.com/commander.js/)\n - [ascii tables](https://github.com/LearnBoost/cli-table)\n - [progress bars](https://github.com/visionmedia/node-progress)\n - [more progress bars](https://github.com/substack/node-multimeter)\n - [examples](https://github.com/visionmedia/commander.js/tree/master/examples)\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+393 silly resolved     readmeFilename: 'Readme.md',
+393 silly resolved     bugs: { url: 'https://github.com/visionmedia/commander.js/issues' },
+393 silly resolved     homepage: 'https://github.com/visionmedia/commander.js',
+393 silly resolved     _id: 'commander@1.0.5',
+393 silly resolved     dist: { shasum: '64870f33e90bab3e090127209ef413785c368c6e' },
+393 silly resolved     _from: 'commander@~1.0.5',
+393 silly resolved     _resolved: 'https://registry.npmjs.org/commander/-/commander-1.0.5.tgz' },
+393 silly resolved   { name: 'inotify',
+393 silly resolved     version: '1.0.0',
+393 silly resolved     author: { name: 'Camilo Aguilar', email: 'camilo@cloudescape.com' },
+393 silly resolved     email: 'camilo@cloudescape.com',
+393 silly resolved     keywords:
+393 silly resolved      [ 'inotify',
+393 silly resolved        'watch',
+393 silly resolved        'monitor',
+393 silly resolved        'watch files',
+393 silly resolved        'watch directories' ],
+393 silly resolved     description: 'inotify bindings for v8 javascript engine',
+393 silly resolved     repository: { type: 'git', url: 'http://github.com/c4milo/node-inotify' },
+393 silly resolved     scripts: { install: 'node-waf configure build' },
+393 silly resolved     engines: { node: '0.8' },
+393 silly resolved     main: 'inotify',
+393 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+393 silly resolved     readme: '# Node-inotify - monitoring file system events in Gnu/Linux with [NodeJS][nodejs_home]\nThe inotify API provides a mechanism for monitoring file system events.\nInotify can be used to monitor individual files, or to monitor directories.\nWhen a directory is monitored, inotify will return events for the directory\nitself, and for files inside the directory. [(ref: GNU/Linux Manual)][inotify.7]\n\n## Installation\nYou must have [NodeJS][nodejs_dev] already installed to be able to build node-inotify. Versions 0.4.x, 0.5.x and 0.6.0 of\n[NodeJS][nodejs_dev] are currently supported and tested.\n\n    $ git clone git://github.com/c4milo/node-inotify.git\n    $ cd node-inotify\n    $ node-waf configure build\n\n### Easy way\n    $ npm install inotify\n\n## API\n  * `var inotify = new Inotify()`: Create a new instance of Inotify. By default it\'s in persistent mode.\n  You can specify `false` in `var inotify = new Inotify(false)` to use the non persistent mode.\n\n  * `var wd = inotify.addWatch(arg)`:  Add a watch for files or directories. This will then return a watch descriptor. The argument is an object as follows\n        var arg = { path: \'path to be monitored\',\n                    watch_for: an optional OR\'ed set of events to watch for.\n                               If they\'re not specified, it will use\n                               Inotify.IN_ALL_EVENTS by default,\n                    callback: Callback function that will receive each event.\n        }\nYou can call this function as many times as you want to monitor different paths.\n**Inotify monitoring of directories is not recursive**: to monitor subdirectories\nunder a directory, additional watches must be created.\n\n  * `inotify.removeWatch(watch_descriptor)`: Remove a watch associated with the watch_descriptor param and returns `true` if the action was succesful or `false` in the opposite case. Removing a watch cause an `Inotify.IN_IGNORED` event to be generated for this watch descriptor.\n\n  * `inotify.close()`: Remove all the watches and close the inotify\'s file descriptor. Returns `true` if the action was succesful or false in the opposite case.\n\n### Event object structure\n```javascript\n    var event = {   watch: Watch descriptor,\n                    mask: Mask of events,\n                    cookie: Cookie that permits to associate events,\n                    name: Optional name of the object being watched\n                };\n```\n\nThe `event.name` property is only present when an event is returned for a file inside a\nwatched directory; it identifies the file pathname relative to the watched\ndirectory.\n\n\n## Example of use\n\n```javascript\n    var Inotify = require(\'inotify\').Inotify;\n    var inotify = new Inotify(); //persistent by default, new Inotify(false) //no persistent\n\n    var data = {}; //used to correlate two events\n\n    var callback = function(event) {\n        var mask = event.mask;\n        var type = mask & Inotify.IN_ISDIR ? \'directory \' : \'file \';\n        event.name ? type += \' \' + event.name + \' \': \' \';\n\n        //the porpuse of this hell of \'if\'\n        //statements is only illustrative.\n\n        if(mask & Inotify.IN_ACCESS) {\n            console.log(type + \'was accessed \');\n        } else if(mask & Inotify.IN_MODIFY) {\n            console.log(type + \'was modified \');\n        } else if(mask & Inotify.IN_OPEN) {\n            console.log(type + \'was opened \');\n        } else if(mask & Inotify.IN_CLOSE_NOWRITE) {\n            console.log(type + \' opened for reading was closed \');\n        } else if(mask & Inotify.IN_CLOSE_WRITE) {\n            console.log(type + \' opened for writing was closed \');\n        } else if(mask & Inotify.IN_ATTRIB) {\n            console.log(type + \'metadata changed \');\n        } else if(mask & Inotify.IN_CREATE) {\n            console.log(type + \'created\');\n        } else if(mask & Inotify.IN_DELETE) {\n            console.log(type + \'deleted\');\n        } else if(mask & Inotify.IN_DELETE_SELF) {\n            console.log(type + \'watched deleted \');\n        } else if(mask & Inotify.IN_MOVE_SELF) {\n            console.log(type + \'watched moved\');\n        } else if(mask & Inotify.IN_IGNORED) {\n            console.log(type + \'watch was removed\');\n        } else if(mask & Inotify.IN_MOVED_FROM) {\n            data = event;\n            data.type = type;\n        } else if(mask & Inotify.IN_MOVED_TO) {\n            if( Object.keys(data).length &&\n                data.cookie === event.cookie) {\n                console.log(type + \' moved to \' + data.type);\n                data = {};\n            }\n        }\n    }\n    var home_dir = { path:      \'/home/camilo\', // <--- change this for a valid directory in your machine.\n                     watch_for: Inotify.IN_OPEN | Inotify.IN_CLOSE,\n                     callback:  callback\n                  };\n\n    var home_watch_descriptor = inotify.addWatch(home_dir);\n\n    var home2_dir = { path:      \'/home/bob\', // <--- change this for a valid directory in your machine\n                      watch_for: Inotify.IN_ALL_EVENTS,\n                      callback:  callback\n                  };\n\n    var home2_wd = inotify.addWatch(home2_dir);\n\n```\n\n## Inotify Events\n\n### Watch for:\n * **Inotify.IN_ACCESS:** File was accessed (read)\n * **Inotify.IN_ATTRIB:** Metadata changed, e.g., permissions, timestamps, extended attributes, link count (since Linux 2.6.25), UID, GID, etc.\n * **Inotify.IN_CLOSE_WRITE:** File opened for writing was closed\n * **Inotify.IN_CLOSE_NOWRITE:** File not opened for writing was closed\n * **Inotify.IN_CREATE:** File/directory created in the watched directory\n * **Inotify.IN_DELETE:** File/directory deleted from the watched directory\n * **Inotify.IN_DELETE_SELF:** Watched file/directory was deleted\n * **Inotify.IN_MODIFY:** File was modified\n * **Inotify.IN_MOVE_SELF:** Watched file/directory was moved\n * **Inotify.IN_MOVED_FROM:** File moved out of the watched directory\n * **Inotify.IN_MOVED_TO:** File moved into watched directory\n * **Inotify.IN_OPEN:** File was opened\n * **Inotify.IN_ALL_EVENTS:** Watch for all kind of events\n * **Inotify.IN_CLOSE:**  (IN_CLOSE_WRITE | IN_CLOSE_NOWRITE)  Close\n * **Inotify.IN_MOVE:**  (IN_MOVED_FROM | IN_MOVED_TO)  Moves\n\n### Additional Flags:\n * **Inotify.IN_ONLYDIR:** Only watch the path if it is a directory.\n * **Inotify.IN_DONT_FOLLOW:** Do not follow symbolics links\n * **Inotify.IN_ONESHOT:** Only send events once\n * **Inotify.IN_MASK_ADD:** Add (OR) events to watch mask for this pathname if it already exists (instead of replacing the mask).\n\n### The following bits may be set in the `event.mask` property returned in the callback\n * **Inotify.IN_IGNORED:** Watch was removed explicitly with inotify.removeWatch(watch_descriptor) or automatically (the file was deleted, or the file system was unmounted)\n * **Inotify.IN_ISDIR:** Subject of this event is a directory\n * **Inotify.IN_Q_OVERFLOW:** Event queue overflowed (wd is -1 for this event)\n * **Inotify.IN_UNMOUNT:** File system containing the watched object was unmounted\n\n\n\n## License\n(The MIT License)\n\nCopyright 2010 Camilo Aguilar. All rights reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the "Software"), to\ndeal in the Software without restriction, including without limitation the\nrights to use, copy, modify, merge, publish, distribute, sublicense, and/or\nsell copies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\nIN THE SOFTWARE.\n\n\n[inotify.7]: http://www.kernel.org/doc/man-pages/online/pages/man7/inotify.7.html "http://www.kernel.org/doc/man-pages/online/pages/man7/inotify.7.html"\n[nodejs_home]: http://www.nodejs.org\n[nodejs_dev]: http://github.com/ry/node\n[code_example]: http://gist.github.com/476119\n\n',
+393 silly resolved     readmeFilename: 'README.md',
+393 silly resolved     bugs: { url: 'https://github.com/c4milo/node-inotify/issues' },
+393 silly resolved     homepage: 'https://github.com/c4milo/node-inotify',
+393 silly resolved     _id: 'inotify@1.0.0',
+393 silly resolved     dist: { shasum: '99a9212aed9e16f3c37b2d0016d2be49925123d4' },
+393 silly resolved     _from: 'inotify@~1.0.0',
+393 silly resolved     _resolved: 'https://registry.npmjs.org/inotify/-/inotify-1.0.0.tgz' } ]
+394 info install pkginfo@0.2.3 into /home/michieljoris/lib/node_modules/refresh
+395 info install socket.io@0.9.16 into /home/michieljoris/lib/node_modules/refresh
+396 info install commander@1.0.5 into /home/michieljoris/lib/node_modules/refresh
+397 info install inotify@1.0.0 into /home/michieljoris/lib/node_modules/refresh
+398 info installOne pkginfo@0.2.3
+399 info installOne socket.io@0.9.16
+400 info installOne commander@1.0.5
+401 info installOne inotify@1.0.0
+402 warn engine inotify@1.0.0: wanted: {"node":"0.8"} (current: {"node":"v0.10.24","npm":"1.3.21"})
+403 info /home/michieljoris/lib/node_modules/refresh/node_modules/pkginfo unbuild
+404 info /home/michieljoris/lib/node_modules/refresh/node_modules/socket.io unbuild
+405 info /home/michieljoris/lib/node_modules/refresh/node_modules/commander unbuild
+406 info /home/michieljoris/lib/node_modules/refresh/node_modules/inotify unbuild
+407 verbose tar unpack /home/michieljoris/.npm/pkginfo/0.2.3/package.tgz
+408 silly lockFile 7b52cf52-les-refresh-node-modules-pkginfo tar:///home/michieljoris/lib/node_modules/refresh/node_modules/pkginfo
+409 verbose lock tar:///home/michieljoris/lib/node_modules/refresh/node_modules/pkginfo /home/michieljoris/.npm/7b52cf52-les-refresh-node-modules-pkginfo.lock
+410 silly lockFile 08f9d211-is-npm-pkginfo-0-2-3-package-tgz tar:///home/michieljoris/.npm/pkginfo/0.2.3/package.tgz
+411 verbose lock tar:///home/michieljoris/.npm/pkginfo/0.2.3/package.tgz /home/michieljoris/.npm/08f9d211-is-npm-pkginfo-0-2-3-package-tgz.lock
+412 verbose tar unpack /home/michieljoris/.npm/socket.io/0.9.16/package.tgz
+413 silly lockFile 5f6586e3-s-refresh-node-modules-socket-io tar:///home/michieljoris/lib/node_modules/refresh/node_modules/socket.io
+414 verbose lock tar:///home/michieljoris/lib/node_modules/refresh/node_modules/socket.io /home/michieljoris/.npm/5f6586e3-s-refresh-node-modules-socket-io.lock
+415 silly lockFile 1398c05a-npm-socket-io-0-9-16-package-tgz tar:///home/michieljoris/.npm/socket.io/0.9.16/package.tgz
+416 verbose lock tar:///home/michieljoris/.npm/socket.io/0.9.16/package.tgz /home/michieljoris/.npm/1398c05a-npm-socket-io-0-9-16-package-tgz.lock
+417 verbose tar unpack /home/michieljoris/.npm/commander/1.0.5/package.tgz
+418 silly lockFile 00dd878f-s-refresh-node-modules-commander tar:///home/michieljoris/lib/node_modules/refresh/node_modules/commander
+419 verbose lock tar:///home/michieljoris/lib/node_modules/refresh/node_modules/commander /home/michieljoris/.npm/00dd878f-s-refresh-node-modules-commander.lock
+420 silly lockFile d0c61fe2--npm-commander-1-0-5-package-tgz tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz
+421 verbose lock tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz /home/michieljoris/.npm/d0c61fe2--npm-commander-1-0-5-package-tgz.lock
+422 verbose tar unpack /home/michieljoris/.npm/inotify/1.0.0/package.tgz
+423 silly lockFile 981fab10-les-refresh-node-modules-inotify tar:///home/michieljoris/lib/node_modules/refresh/node_modules/inotify
+424 verbose lock tar:///home/michieljoris/lib/node_modules/refresh/node_modules/inotify /home/michieljoris/.npm/981fab10-les-refresh-node-modules-inotify.lock
+425 silly lockFile f19a875c-is-npm-inotify-1-0-0-package-tgz tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz
+426 verbose lock tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz /home/michieljoris/.npm/f19a875c-is-npm-inotify-1-0-0-package-tgz.lock
+427 silly gunzTarPerm modes [ '755', '644' ]
+428 silly gunzTarPerm modes [ '755', '644' ]
+429 silly gunzTarPerm modes [ '755', '644' ]
+430 silly gunzTarPerm modes [ '755', '644' ]
+431 silly gunzTarPerm extractEntry package.json
+432 silly gunzTarPerm extractEntry package.json
+433 silly gunzTarPerm extractEntry package.json
+434 silly gunzTarPerm extractEntry package.json
+435 silly gunzTarPerm extractEntry .npmignore
+436 silly gunzTarPerm extractEntry README.md
+437 silly gunzTarPerm extractEntry .npmignore
+438 silly gunzTarPerm extractEntry LICENSE
+439 silly gunzTarPerm extractEntry .npmignore
+440 silly gunzTarPerm extractEntry index.js
+441 silly gunzTarPerm extractEntry .npmignore
+442 silly gunzTarPerm extractEntry README.md
+443 silly gunzTarPerm extractEntry docs/docco.css
+444 silly gunzTarPerm extractEntry docs/pkginfo.html
+445 silly gunzTarPerm extractEntry .travis.yml
+446 silly gunzTarPerm extractEntry History.md
+447 silly gunzTarPerm extractEntry LICENSE
+448 silly gunzTarPerm extractEntry example.js
+449 silly gunzTarPerm extractEntry index.js
+450 silly gunzTarPerm extractEntry .travis.yml
+451 silly gunzTarPerm extractEntry examples/package.json
+452 silly gunzTarPerm extractEntry Makefile
+453 silly gunzTarPerm extractEntry Readme.md
+454 silly gunzTarPerm extractEntry inotify.js
+455 silly gunzTarPerm extractEntry History.md
+456 silly gunzTarPerm extractEntry Makefile
+457 silly gunzTarPerm extractEntry Readme.md
+458 silly gunzTarPerm extractEntry benchmarks/decode.bench.js
+459 silly gunzTarPerm extractEntry benchmarks/encode.bench.js
+460 silly gunzTarPerm extractEntry benchmarks/runner.js
+461 silly gunzTarPerm extractEntry lib/logger.js
+462 silly gunzTarPerm extractEntry lib/namespace.js
+463 silly gunzTarPerm extractEntry lib/parser.js
+464 silly gunzTarPerm extractEntry lib/socket.io.js
+465 silly gunzTarPerm extractEntry lib/socket.js
+466 silly gunzTarPerm extractEntry lib/manager.js
+467 silly gunzTarPerm extractEntry lib/store.js
+468 silly gunzTarPerm extractEntry lib/transport.js
+469 silly gunzTarPerm extractEntry lib/util.js
+470 silly gunzTarPerm extractEntry lib/static.js
+471 silly gunzTarPerm extractEntry lib/stores/memory.js
+472 silly gunzTarPerm extractEntry lib/stores/redis.js
+473 silly gunzTarPerm extractEntry lib/transports/flashsocket.js
+474 silly gunzTarPerm extractEntry lib/transports/htmlfile.js
+475 silly gunzTarPerm extractEntry lib/transports/http-polling.js
+476 silly gunzTarPerm extractEntry lib/transports/http.js
+477 silly gunzTarPerm extractEntry lib/transports/index.js
+478 silly gunzTarPerm extractEntry lib/transports/jsonp-polling.js
+479 silly gunzTarPerm extractEntry lib/transports/websocket.js
+480 silly gunzTarPerm extractEntry lib/transports/xhr-polling.js
+481 silly gunzTarPerm extractEntry lib/transports/websocket/default.js
+482 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-07-12.js
+483 silly gunzTarPerm extractEntry lib/transports/websocket/hybi-16.js
+484 silly gunzTarPerm extractEntry lib/transports/websocket/index.js
+485 silly gunzTarPerm extractEntry lib/commander.js
+486 silly gunzTarPerm extractEntry examples/all-properties.js
+487 silly gunzTarPerm extractEntry examples/array-argument.js
+488 silly gunzTarPerm extractEntry AUTHORS
+489 silly gunzTarPerm extractEntry binding.gyp
+490 silly gunzTarPerm extractEntry src/bindings.cc
+491 silly gunzTarPerm extractEntry src/bindings.h
+492 silly gunzTarPerm extractEntry examples/multiple-properties.js
+493 silly gunzTarPerm extractEntry examples/object-argument.js
+494 silly gunzTarPerm extractEntry src/node_inotify.cc
+495 silly gunzTarPerm extractEntry src/node_inotify.h
+496 silly gunzTarPerm extractEntry src/wscript
+497 silly gunzTarPerm extractEntry wscript
+498 silly gunzTarPerm extractEntry examples/single-property.js
+499 silly gunzTarPerm extractEntry lib/pkginfo.js
+500 silly gunzTarPerm extractEntry test/pkginfo-test.js
+501 silly lockFile 00dd878f-s-refresh-node-modules-commander tar:///home/michieljoris/lib/node_modules/refresh/node_modules/commander
+502 silly lockFile 00dd878f-s-refresh-node-modules-commander tar:///home/michieljoris/lib/node_modules/refresh/node_modules/commander
+503 silly lockFile d0c61fe2--npm-commander-1-0-5-package-tgz tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz
+504 silly lockFile d0c61fe2--npm-commander-1-0-5-package-tgz tar:///home/michieljoris/.npm/commander/1.0.5/package.tgz
+505 info preinstall commander@1.0.5
+506 verbose readDependencies using package.json deps
+507 verbose readDependencies using package.json deps
+508 verbose cache add [ 'keypress@0.1.x', null ]
+509 verbose cache add name=undefined spec="keypress@0.1.x" args=["keypress@0.1.x",null]
+510 verbose parsed url { protocol: null,
+510 verbose parsed url   slashes: null,
+510 verbose parsed url   auth: null,
+510 verbose parsed url   host: null,
+510 verbose parsed url   port: null,
+510 verbose parsed url   hostname: null,
+510 verbose parsed url   hash: null,
+510 verbose parsed url   search: null,
+510 verbose parsed url   query: null,
+510 verbose parsed url   pathname: 'keypress@0.1.x',
+510 verbose parsed url   path: 'keypress@0.1.x',
+510 verbose parsed url   href: 'keypress@0.1.x' }
+511 verbose cache add name="keypress" spec="0.1.x" args=["keypress","0.1.x"]
+512 verbose parsed url { protocol: null,
+512 verbose parsed url   slashes: null,
+512 verbose parsed url   auth: null,
+512 verbose parsed url   host: null,
+512 verbose parsed url   port: null,
+512 verbose parsed url   hostname: null,
+512 verbose parsed url   hash: null,
+512 verbose parsed url   search: null,
+512 verbose parsed url   query: null,
+512 verbose parsed url   pathname: '0.1.x',
+512 verbose parsed url   path: '0.1.x',
+512 verbose parsed url   href: '0.1.x' }
+513 verbose addNamed [ 'keypress', '0.1.x' ]
+514 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+515 silly lockFile a3a73622-keypress-0-1-x keypress@0.1.x
+516 verbose lock keypress@0.1.x /home/michieljoris/.npm/a3a73622-keypress-0-1-x.lock
+517 silly addNameRange { name: 'keypress', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+518 verbose url raw keypress
+519 verbose url resolving [ 'https://registry.npmjs.org/', './keypress' ]
+520 verbose url resolved https://registry.npmjs.org/keypress
+521 info trying registry request attempt 1 at 14:30:40
+522 verbose etag "2PWC6AGK2Y09QZVV8OJ0V9GZU"
+523 http GET https://registry.npmjs.org/keypress
+524 silly lockFile 981fab10-les-refresh-node-modules-inotify tar:///home/michieljoris/lib/node_modules/refresh/node_modules/inotify
+525 silly lockFile 981fab10-les-refresh-node-modules-inotify tar:///home/michieljoris/lib/node_modules/refresh/node_modules/inotify
+526 silly lockFile f19a875c-is-npm-inotify-1-0-0-package-tgz tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz
+527 silly lockFile f19a875c-is-npm-inotify-1-0-0-package-tgz tar:///home/michieljoris/.npm/inotify/1.0.0/package.tgz
+528 info preinstall inotify@1.0.0
+529 verbose readDependencies using package.json deps
+530 verbose readDependencies using package.json deps
+531 silly resolved []
+532 verbose about to build /home/michieljoris/lib/node_modules/refresh/node_modules/inotify
+533 info build /home/michieljoris/lib/node_modules/refresh/node_modules/inotify
+534 verbose linkStuff [ true,
+534 verbose linkStuff   '/home/michieljoris/lib/node_modules',
+534 verbose linkStuff   false,
+534 verbose linkStuff   '/home/michieljoris/lib/node_modules/refresh/node_modules' ]
+535 info linkStuff inotify@1.0.0
+536 silly lockFile 7b52cf52-les-refresh-node-modules-pkginfo tar:///home/michieljoris/lib/node_modules/refresh/node_modules/pkginfo
+537 silly lockFile 7b52cf52-les-refresh-node-modules-pkginfo tar:///home/michieljoris/lib/node_modules/refresh/node_modules/pkginfo
+538 verbose linkBins inotify@1.0.0
+539 verbose linkMans inotify@1.0.0
+540 verbose rebuildBundles inotify@1.0.0
+541 silly lockFile 08f9d211-is-npm-pkginfo-0-2-3-package-tgz tar:///home/michieljoris/.npm/pkginfo/0.2.3/package.tgz
+542 silly lockFile 08f9d211-is-npm-pkginfo-0-2-3-package-tgz tar:///home/michieljoris/.npm/pkginfo/0.2.3/package.tgz
+543 info install inotify@1.0.0
+544 verbose unsafe-perm in lifecycle true
+545 info preinstall pkginfo@0.2.3
+546 verbose readDependencies using package.json deps
+547 verbose readDependencies using package.json deps
+548 silly resolved []
+549 verbose about to build /home/michieljoris/lib/node_modules/refresh/node_modules/pkginfo
+550 info build /home/michieljoris/lib/node_modules/refresh/node_modules/pkginfo
+551 verbose linkStuff [ true,
+551 verbose linkStuff   '/home/michieljoris/lib/node_modules',
+551 verbose linkStuff   false,
+551 verbose linkStuff   '/home/michieljoris/lib/node_modules/refresh/node_modules' ]
+552 info linkStuff pkginfo@0.2.3
+553 info inotify@1.0.0 Failed to exec install script
+554 info /home/michieljoris/lib/node_modules/refresh/node_modules/inotify unbuild
+555 info preuninstall inotify@1.0.0
+556 verbose linkBins pkginfo@0.2.3
+557 verbose linkMans pkginfo@0.2.3
+558 verbose rebuildBundles pkginfo@0.2.3
+559 info uninstall inotify@1.0.0
+560 info install pkginfo@0.2.3
+561 verbose false,/home/michieljoris/lib/node_modules,/home/michieljoris/lib/node_modules/refresh/node_modules unbuild inotify@1.0.0
+562 info postuninstall inotify@1.0.0
+563 info postinstall pkginfo@0.2.3
+564 verbose about to build /home/michieljoris/lib/node_modules/refresh
+565 info /home/michieljoris/lib/node_modules/refresh unbuild
+566 info preuninstall refresh@0.0.5
+567 info uninstall refresh@0.0.5
+568 verbose true,/home/michieljoris/lib/node_modules,/home/michieljoris/lib/node_modules unbuild refresh@0.0.5
+569 verbose /home/michieljoris/bin,[object Object] binRoot
+570 error error rolling back Error: Refusing to delete: /home/michieljoris/bin/refresh not in /home/michieljoris/lib/node_modules/refresh
+570 error error rolling back     at clobberFail (/home/michieljoris/opt/node-v0.10.24-linux-x64/lib/node_modules/npm/lib/utils/gently-rm.js:41:12)
+570 error error rolling back     at next (/home/michieljoris/opt/node-v0.10.24-linux-x64/lib/node_modules/npm/lib/utils/gently-rm.js:27:14)
+570 error error rolling back     at /home/michieljoris/opt/node-v0.10.24-linux-x64/lib/node_modules/npm/lib/utils/gently-rm.js:21:30
+570 error error rolling back     at Object.oncomplete (fs.js:107:15)
+570 error error rolling back  refresh@0.0.5 { [Error: Refusing to delete: /home/michieljoris/bin/refresh not in /home/michieljoris/lib/node_modules/refresh] code: 'EEXIST', path: '/home/michieljoris/bin/refresh' }
+571 error inotify@1.0.0 install: `node-waf configure build`
+571 error Exit status 127
+572 error Failed at the inotify@1.0.0 install script.
+572 error This is most likely a problem with the inotify package,
+572 error not with npm itself.
+572 error Tell the author that this fails on your system:
+572 error     node-waf configure build
+572 error You can get their info via:
+572 error     npm owner ls inotify
+572 error There is likely additional logging output above.
+573 error System Linux 3.12.8-1-ARCH
+574 error command "/home/michieljoris/bin/node" "/home/michieljoris/bin/npm" "install" "-g" "refresh"
+575 error cwd /home/michieljoris/bin
+576 error node -v v0.10.24
+577 error npm -v 1.3.21
+578 error code ELIFECYCLE
+579 verbose exit [ 1, true ]

@@ -1,0 +1,1 @@
+ ngrok -subdomain=qcoss -httpauth="qcoss:fair" -authtoken pAWvKYzlOYcEXZDNL33A 8080

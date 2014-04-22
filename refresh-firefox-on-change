@@ -1,0 +1,1 @@
+while /bin/true ; do inotifywait --recursive --event modify ./ ; echo "reload" | nc -c localhost 32000 ; done

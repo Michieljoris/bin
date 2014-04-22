@@ -1,0 +1,27 @@
+
+# windowtitle=$(sed -ne "s/<title>\(.*\)<\/title>/\1/p" "$1")
+windowtitle=Scaffold
+
+# if [ $? != 0 ]; then
+#     echo "couldn't find <title> in file" $1 1>&2
+#     exit 1
+# fi
+
+# get rid of leading/trailing whitespace
+windowtitle=$(echo -n $windowtitle)
+
+# i# f [ -z "$windowtitle" ]; then
+#     echo "couldn't find <title> in file" $1 1>&2
+#     exit 1
+# fi
+
+oldid=$(xdotool getwindowfocus)
+id=$(xdotool search --name "$windowtitle")
+
+if [ $? != 0 ]; then
+    echo 'window not found' 1>&2
+    exit 1
+fi
+xdotool  windowactivate --sync $id
+xdotool key 'ctrl+r'
+xdotool windowactivate --sync $oldid
