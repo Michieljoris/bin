@@ -1,0 +1,1 @@
+ssh -i ~/.ssh/editshare.pem ubuntu@175.41.141.96
