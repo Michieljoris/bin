@@ -1,0 +1,6 @@
+# docker run --rm -v /usr/local/bin:/target jpetazzo/nsenter
+docker run -d -p 9000:9000 -v /var/run/docker.sock:/docker.sock crosbymichael/dockerui -e /docker.sock
+echo "Docker-ui is at localhost:9000"
+echo "docker-enter <imagename or id>"
+
+

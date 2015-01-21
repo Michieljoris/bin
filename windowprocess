@@ -1,0 +1,2 @@
+# run and then click on window to find out process id of window
+xprop _NET_WM_PID
